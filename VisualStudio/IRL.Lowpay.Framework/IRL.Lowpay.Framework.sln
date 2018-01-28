@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IRL.Lowpay.Framework.Common
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IRL.Lowpay.Framework.Business", "IRL.Lowpay.Framework.Business\IRL.Lowpay.Framework.Business.csproj", "{050C82CE-36FD-4C72-9386-30748EF31C12}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IRL.Lowpay.Framework.Data", "IRL.Lowpay.Framework.Data\IRL.Lowpay.Framework.Data.csproj", "{95A4D218-7949-4E4F-9903-545E9DB350C6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{050C82CE-36FD-4C72-9386-30748EF31C12}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{050C82CE-36FD-4C72-9386-30748EF31C12}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{050C82CE-36FD-4C72-9386-30748EF31C12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95A4D218-7949-4E4F-9903-545E9DB350C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95A4D218-7949-4E4F-9903-545E9DB350C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95A4D218-7949-4E4F-9903-545E9DB350C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95A4D218-7949-4E4F-9903-545E9DB350C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
