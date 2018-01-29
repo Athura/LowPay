@@ -1,0 +1,7 @@
+E:\Projects\MyRepos\LowPay\VS\Services\RTS\API\bin\Lowpay.Service.API.dll.config
+E:\Projects\MyRepos\LowPay\VS\Services\RTS\API\bin\Lowpay.Service.API.dll
+E:\Projects\MyRepos\LowPay\VS\Services\RTS\API\bin\Lowpay.Service.API.pdb
+E:\Projects\MyRepos\LowPay\VS\Services\RTS\API\obj\Debug\Lowpay.Service.API.csprojResolveAssemblyReference.cache
+E:\Projects\MyRepos\LowPay\VS\Services\RTS\API\obj\Debug\Lowpay.Service.API.csproj.CoreCompileInputs.cache
+E:\Projects\MyRepos\LowPay\VS\Services\RTS\API\obj\Debug\Lowpay.Service.API.dll
+E:\Projects\MyRepos\LowPay\VS\Services\RTS\API\obj\Debug\Lowpay.Service.API.pdb

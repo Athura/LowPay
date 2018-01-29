@@ -11,3 +11,16 @@ D:\Projects\Athura\LowPayGit\VS\Framework\Business\obj\Debug\netcoreapp2.0\Lowpa
 D:\Projects\Athura\LowPayGit\VS\Framework\Business\obj\Debug\netcoreapp2.0\Lowpay.Framework.Business.AssemblyInfo.cs
 D:\Projects\Athura\LowPayGit\VS\Framework\Business\obj\Debug\netcoreapp2.0\Lowpay.Framework.Business.dll
 D:\Projects\Athura\LowPayGit\VS\Framework\Business\obj\Debug\netcoreapp2.0\Lowpay.Framework.Business.pdb
+E:\Projects\MyRepos\LowPay\VS\Framework\Business\bin\Debug\netcoreapp2.0\Lowpay.Framework.Business.deps.json
+E:\Projects\MyRepos\LowPay\VS\Framework\Business\bin\Debug\netcoreapp2.0\Lowpay.Framework.Business.dll
+E:\Projects\MyRepos\LowPay\VS\Framework\Business\bin\Debug\netcoreapp2.0\Lowpay.Framework.Business.pdb
+E:\Projects\MyRepos\LowPay\VS\Framework\Business\bin\Debug\netcoreapp2.0\Lowpay.Framework.Common.dll
+E:\Projects\MyRepos\LowPay\VS\Framework\Business\bin\Debug\netcoreapp2.0\Lowpay.Framework.Data.dll
+E:\Projects\MyRepos\LowPay\VS\Framework\Business\bin\Debug\netcoreapp2.0\Lowpay.Framework.Common.pdb
+E:\Projects\MyRepos\LowPay\VS\Framework\Business\bin\Debug\netcoreapp2.0\Lowpay.Framework.Data.pdb
+E:\Projects\MyRepos\LowPay\VS\Framework\Business\obj\Debug\netcoreapp2.0\Lowpay.Framework.Business.csprojResolveAssemblyReference.cache
+E:\Projects\MyRepos\LowPay\VS\Framework\Business\obj\Debug\netcoreapp2.0\Lowpay.Framework.Business.csproj.CoreCompileInputs.cache
+E:\Projects\MyRepos\LowPay\VS\Framework\Business\obj\Debug\netcoreapp2.0\Lowpay.Framework.Business.AssemblyInfoInputs.cache
+E:\Projects\MyRepos\LowPay\VS\Framework\Business\obj\Debug\netcoreapp2.0\Lowpay.Framework.Business.AssemblyInfo.cs
+E:\Projects\MyRepos\LowPay\VS\Framework\Business\obj\Debug\netcoreapp2.0\Lowpay.Framework.Business.dll
+E:\Projects\MyRepos\LowPay\VS\Framework\Business\obj\Debug\netcoreapp2.0\Lowpay.Framework.Business.pdb

@@ -7,3 +7,12 @@ D:\Projects\Athura\LowPayGit\VS\Framework\Common\obj\Debug\netcoreapp2.0\Lowpay.
 D:\Projects\Athura\LowPayGit\VS\Framework\Common\obj\Debug\netcoreapp2.0\Lowpay.Framework.Common.dll
 D:\Projects\Athura\LowPayGit\VS\Framework\Common\obj\Debug\netcoreapp2.0\Lowpay.Framework.Common.pdb
 D:\Projects\Athura\LowPayGit\VS\Framework\Common\obj\Debug\netcoreapp2.0\Lowpay.Framework.Common.csprojResolveAssemblyReference.cache
+E:\Projects\MyRepos\LowPay\VS\Framework\Common\bin\Debug\netcoreapp2.0\Lowpay.Framework.Common.deps.json
+E:\Projects\MyRepos\LowPay\VS\Framework\Common\bin\Debug\netcoreapp2.0\Lowpay.Framework.Common.dll
+E:\Projects\MyRepos\LowPay\VS\Framework\Common\bin\Debug\netcoreapp2.0\Lowpay.Framework.Common.pdb
+E:\Projects\MyRepos\LowPay\VS\Framework\Common\obj\Debug\netcoreapp2.0\Lowpay.Framework.Common.csprojResolveAssemblyReference.cache
+E:\Projects\MyRepos\LowPay\VS\Framework\Common\obj\Debug\netcoreapp2.0\Lowpay.Framework.Common.csproj.CoreCompileInputs.cache
+E:\Projects\MyRepos\LowPay\VS\Framework\Common\obj\Debug\netcoreapp2.0\Lowpay.Framework.Common.AssemblyInfoInputs.cache
+E:\Projects\MyRepos\LowPay\VS\Framework\Common\obj\Debug\netcoreapp2.0\Lowpay.Framework.Common.AssemblyInfo.cs
+E:\Projects\MyRepos\LowPay\VS\Framework\Common\obj\Debug\netcoreapp2.0\Lowpay.Framework.Common.dll
+E:\Projects\MyRepos\LowPay\VS\Framework\Common\obj\Debug\netcoreapp2.0\Lowpay.Framework.Common.pdb
