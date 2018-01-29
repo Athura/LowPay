@@ -1,10 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace RTS.Service.Common
+namespace RTS.Service.Common2
 {
     public class Class1
     {

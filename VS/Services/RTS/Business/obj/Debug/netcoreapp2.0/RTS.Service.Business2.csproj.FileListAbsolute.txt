@@ -1,0 +1,8 @@
+E:\Projects\MyRepos\LowPay\VS\Services\RTS\RTS.Service.Business2\bin\Debug\netcoreapp2.0\RTS.Service.Business2.deps.json
+E:\Projects\MyRepos\LowPay\VS\Services\RTS\RTS.Service.Business2\bin\Debug\netcoreapp2.0\RTS.Service.Business2.dll
+E:\Projects\MyRepos\LowPay\VS\Services\RTS\RTS.Service.Business2\bin\Debug\netcoreapp2.0\RTS.Service.Business2.pdb
+E:\Projects\MyRepos\LowPay\VS\Services\RTS\RTS.Service.Business2\obj\Debug\netcoreapp2.0\RTS.Service.Business2.csproj.CoreCompileInputs.cache
+E:\Projects\MyRepos\LowPay\VS\Services\RTS\RTS.Service.Business2\obj\Debug\netcoreapp2.0\RTS.Service.Business2.AssemblyInfoInputs.cache
+E:\Projects\MyRepos\LowPay\VS\Services\RTS\RTS.Service.Business2\obj\Debug\netcoreapp2.0\RTS.Service.Business2.AssemblyInfo.cs
+E:\Projects\MyRepos\LowPay\VS\Services\RTS\RTS.Service.Business2\obj\Debug\netcoreapp2.0\RTS.Service.Business2.dll
+E:\Projects\MyRepos\LowPay\VS\Services\RTS\RTS.Service.Business2\obj\Debug\netcoreapp2.0\RTS.Service.Business2.pdb
