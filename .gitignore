@@ -3,3 +3,6 @@
 ################################################################################
 
 /VS/.vs/LowpayTree/v15/Server/sqlite3
+VS/.vs/LowpayTree/v15/.suo
+VS/.vs/LowpayTree/v15/Server/sqlite3/storage.ide
+*.ide
