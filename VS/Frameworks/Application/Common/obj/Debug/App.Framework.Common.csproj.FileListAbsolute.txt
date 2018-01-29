@@ -1,0 +1,11 @@
+E:\Projects\MyRepos\LowPay\VS\Framework\Application\Common\bin\Debug\App.Framework.Common.dll
+E:\Projects\MyRepos\LowPay\VS\Framework\Application\Common\bin\Debug\App.Framework.Common.pdb
+E:\Projects\MyRepos\LowPay\VS\Framework\Application\Common\obj\Debug\App.Framework.Common.csproj.CoreCompileInputs.cache
+E:\Projects\MyRepos\LowPay\VS\Framework\Application\Common\obj\Debug\App.Framework.Common.dll
+E:\Projects\MyRepos\LowPay\VS\Framework\Application\Common\obj\Debug\App.Framework.Common.pdb
+E:\Projects\MyRepos\LowPay\VS\Frameworks\Application\Common\bin\Debug\App.Framework.Common.dll
+E:\Projects\MyRepos\LowPay\VS\Frameworks\Application\Common\bin\Debug\App.Framework.Common.pdb
+E:\Projects\MyRepos\LowPay\VS\Frameworks\Application\Common\obj\Debug\App.Framework.Common.csproj.CoreCompileInputs.cache
+E:\Projects\MyRepos\LowPay\VS\Frameworks\Application\Common\obj\Debug\App.Framework.Common.dll
+E:\Projects\MyRepos\LowPay\VS\Frameworks\Application\Common\obj\Debug\App.Framework.Common.pdb
+E:\Projects\MyRepos\LowPay\VS\Frameworks\Application\Common\obj\Debug\App.Framework.Common.csprojResolveAssemblyReference.cache

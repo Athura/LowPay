@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
-using Lowpay.Logging.Business;
-using RTS.Services.Common;
+using Lowpay.Framework.Business;
+using RTS.Service.Common;
 
-namespace RTS.Services.Business
+namespace RTS.Service.Business
 {
 	public abstract class ServiceBaseBase
 	{

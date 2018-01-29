@@ -5,7 +5,7 @@ using System.Reflection;
 using System.Text;
 using System.Text.RegularExpressions;
 
-namespace RTS.Services.Common
+namespace RTS.Service.Common
 {
 	public static class AppMetaData
 	{

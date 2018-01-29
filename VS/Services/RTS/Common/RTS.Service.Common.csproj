@@ -59,7 +59,11 @@
     <Compile Include="UserAuthToken.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Framework\Common\Lowpay.Framework.Common.csproj">
+    <ProjectReference Include="..\..\..\Frameworks\Application\Business\App.Framework.Business.csproj">
+      <Project>{b023c90e-e652-489c-ba0f-a26749c70e9f}</Project>
+      <Name>App.Framework.Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Frameworks\Lowpay\Common\Lowpay.Framework.Common.csproj">
       <Project>{d21ce55b-0c08-45a0-a292-84ea8d2dba58}</Project>
       <Name>Lowpay.Framework.Common</Name>
     </ProjectReference>

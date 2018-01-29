@@ -1,11 +1,2 @@
-E:\Projects\MyRepos\LowPay\VS\Services\RTS\API\bin\RTS.Service.API.dll.config
-E:\Projects\MyRepos\LowPay\VS\Services\RTS\API\bin\RTS.Service.API.dll
-E:\Projects\MyRepos\LowPay\VS\Services\RTS\API\bin\RTS.Service.API.pdb
 E:\Projects\MyRepos\LowPay\VS\Services\RTS\API\obj\Debug\RTS.Service.API.csprojResolveAssemblyReference.cache
 E:\Projects\MyRepos\LowPay\VS\Services\RTS\API\obj\Debug\RTS.Service.API.csproj.CoreCompileInputs.cache
-E:\Projects\MyRepos\LowPay\VS\Services\RTS\API\obj\Debug\RTS.Service.API.dll
-E:\Projects\MyRepos\LowPay\VS\Services\RTS\API\obj\Debug\RTS.Service.API.pdb
-E:\Projects\MyRepos\LowPay\VS\Services\RTS\API\bin\RTS.Service.Business.dll
-E:\Projects\MyRepos\LowPay\VS\Services\RTS\API\bin\RTS.Service.Common.dll
-E:\Projects\MyRepos\LowPay\VS\Services\RTS\API\bin\RTS.Service.Business.pdb
-E:\Projects\MyRepos\LowPay\VS\Services\RTS\API\bin\RTS.Service.Common.pdb
