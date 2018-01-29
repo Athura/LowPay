@@ -6,3 +6,4 @@ E:\Projects\MyRepos\LowPay\VS\Services\RTS\Common\obj\Debug\RTS.Service.Common.d
 E:\Projects\MyRepos\LowPay\VS\Services\RTS\Common\obj\Debug\RTS.Service.Common.pdb
 E:\Projects\MyRepos\LowPay\VS\Services\RTS\Common\bin\Debug\Lowpay.Framework.Common.dll
 E:\Projects\MyRepos\LowPay\VS\Services\RTS\Common\bin\Debug\Lowpay.Framework.Common.pdb
+E:\Projects\MyRepos\LowPay\VS\Services\RTS\Common\bin\Debug\Ionic.Zip.dll
