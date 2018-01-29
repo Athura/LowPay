@@ -674,9 +674,9 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "D:\\Projects\\Athura\\LowPayGit\\VS\\Framework\\Common\\IRL.Lowpay.Framework.Common.csproj",
-      "projectName": "IRL.Lowpay.Framework.Common",
-      "projectPath": "D:\\Projects\\Athura\\LowPayGit\\VS\\Framework\\Common\\IRL.Lowpay.Framework.Common.csproj",
+      "projectUniqueName": "D:\\Projects\\Athura\\LowPayGit\\VS\\Framework\\Common\\Lowpay.Framework.Common.csproj",
+      "projectName": "Lowpay.Framework.Common",
+      "projectPath": "D:\\Projects\\Athura\\LowPayGit\\VS\\Framework\\Common\\Lowpay.Framework.Common.csproj",
       "packagesPath": "C:\\Users\\Paul\\.nuget\\packages\\",
       "outputPath": "D:\\Projects\\Athura\\LowPayGit\\VS\\Framework\\Common\\obj\\",
       "projectStyle": "PackageReference",
