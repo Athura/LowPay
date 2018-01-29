@@ -674,11 +674,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "D:\\Projects\\Athura\\LowPayGit\\VS\\Framework\\Business\\IRL.Lowpay.Framework.Business.csproj",
+      "projectUniqueName": "D:\\Projects\\Athura\\LowPay\\VS\\Framework\\Business\\IRL.Lowpay.Framework.Business.csproj",
       "projectName": "IRL.Lowpay.Framework.Business",
-      "projectPath": "D:\\Projects\\Athura\\LowPayGit\\VS\\Framework\\Business\\IRL.Lowpay.Framework.Business.csproj",
+      "projectPath": "D:\\Projects\\Athura\\LowPay\\VS\\Framework\\Business\\IRL.Lowpay.Framework.Business.csproj",
       "packagesPath": "C:\\Users\\Paul\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\Athura\\LowPayGit\\VS\\Framework\\Business\\obj\\",
+      "outputPath": "D:\\Projects\\Athura\\LowPay\\VS\\Framework\\Business\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
