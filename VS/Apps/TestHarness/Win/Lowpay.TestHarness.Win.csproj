@@ -76,5 +76,15 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Framework\Business\Lowpay.Framework.Business.csproj">
+      <Project>{91831e93-1bd8-43f2-8d2b-cec4176e2a2e}</Project>
+      <Name>Lowpay.Framework.Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Framework\Common\Lowpay.Framework.Common.csproj">
+      <Project>{d21ce55b-0c08-45a0-a292-84ea8d2dba58}</Project>
+      <Name>Lowpay.Framework.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

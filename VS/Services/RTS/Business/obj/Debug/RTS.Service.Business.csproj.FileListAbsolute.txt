@@ -1,0 +1,12 @@
+E:\Projects\MyRepos\LowPay\VS\Services\RTS\Business\bin\Debug\RTS.Service.Business.dll
+E:\Projects\MyRepos\LowPay\VS\Services\RTS\Business\bin\Debug\RTS.Service.Business.pdb
+E:\Projects\MyRepos\LowPay\VS\Services\RTS\Business\obj\Debug\RTS.Service.Business.csprojResolveAssemblyReference.cache
+E:\Projects\MyRepos\LowPay\VS\Services\RTS\Business\obj\Debug\RTS.Service.Business.csproj.CoreCompileInputs.cache
+E:\Projects\MyRepos\LowPay\VS\Services\RTS\Business\obj\Debug\RTS.Service.Business.dll
+E:\Projects\MyRepos\LowPay\VS\Services\RTS\Business\obj\Debug\RTS.Service.Business.pdb
+E:\Projects\MyRepos\LowPay\VS\Services\RTS\Business\bin\Debug\Lowpay.Framework.Business.dll
+E:\Projects\MyRepos\LowPay\VS\Services\RTS\Business\bin\Debug\Lowpay.Framework.Common.dll
+E:\Projects\MyRepos\LowPay\VS\Services\RTS\Business\bin\Debug\RTS.Service.Common.dll
+E:\Projects\MyRepos\LowPay\VS\Services\RTS\Business\bin\Debug\Lowpay.Framework.Business.pdb
+E:\Projects\MyRepos\LowPay\VS\Services\RTS\Business\bin\Debug\Lowpay.Framework.Common.pdb
+E:\Projects\MyRepos\LowPay\VS\Services\RTS\Business\bin\Debug\RTS.Service.Common.pdb

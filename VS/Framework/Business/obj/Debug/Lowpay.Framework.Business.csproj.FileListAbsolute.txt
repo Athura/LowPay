@@ -1,0 +1,10 @@
+E:\Projects\MyRepos\LowPay\VS\Framework\Business\bin\Debug\Lowpay.Framework.Business.dll
+E:\Projects\MyRepos\LowPay\VS\Framework\Business\bin\Debug\Lowpay.Framework.Business.pdb
+E:\Projects\MyRepos\LowPay\VS\Framework\Business\obj\Debug\Lowpay.Framework.Business.csprojResolveAssemblyReference.cache
+E:\Projects\MyRepos\LowPay\VS\Framework\Business\obj\Debug\Lowpay.Framework.Business.csproj.CoreCompileInputs.cache
+E:\Projects\MyRepos\LowPay\VS\Framework\Business\obj\Debug\Lowpay.Framework.Business.dll
+E:\Projects\MyRepos\LowPay\VS\Framework\Business\obj\Debug\Lowpay.Framework.Business.pdb
+E:\Projects\MyRepos\LowPay\VS\Framework\Business\bin\Debug\Lowpay.Framework.Common.dll
+E:\Projects\MyRepos\LowPay\VS\Framework\Business\bin\Debug\Lowpay.Framework.Data.dll
+E:\Projects\MyRepos\LowPay\VS\Framework\Business\bin\Debug\Lowpay.Framework.Common.pdb
+E:\Projects\MyRepos\LowPay\VS\Framework\Business\bin\Debug\Lowpay.Framework.Data.pdb

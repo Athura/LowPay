@@ -83,6 +83,16 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Business\RTS.Service.Business.csproj">
+      <Project>{20fa6ee0-e110-49a2-8c73-38a05735c794}</Project>
+      <Name>RTS.Service.Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Common\RTS.Service.Common.csproj">
+      <Project>{f0d107a3-af69-44c2-ba4d-1d70919e46c0}</Project>
+      <Name>RTS.Service.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

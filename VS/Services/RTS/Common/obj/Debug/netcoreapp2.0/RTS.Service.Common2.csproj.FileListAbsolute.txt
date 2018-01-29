@@ -1,8 +1,0 @@
-E:\Projects\MyRepos\LowPay\VS\Services\RTS\RTS.Service.Common2\bin\Debug\netcoreapp2.0\RTS.Service.Common2.deps.json
-E:\Projects\MyRepos\LowPay\VS\Services\RTS\RTS.Service.Common2\bin\Debug\netcoreapp2.0\RTS.Service.Common2.dll
-E:\Projects\MyRepos\LowPay\VS\Services\RTS\RTS.Service.Common2\bin\Debug\netcoreapp2.0\RTS.Service.Common2.pdb
-E:\Projects\MyRepos\LowPay\VS\Services\RTS\RTS.Service.Common2\obj\Debug\netcoreapp2.0\RTS.Service.Common2.csproj.CoreCompileInputs.cache
-E:\Projects\MyRepos\LowPay\VS\Services\RTS\RTS.Service.Common2\obj\Debug\netcoreapp2.0\RTS.Service.Common2.AssemblyInfoInputs.cache
-E:\Projects\MyRepos\LowPay\VS\Services\RTS\RTS.Service.Common2\obj\Debug\netcoreapp2.0\RTS.Service.Common2.AssemblyInfo.cs
-E:\Projects\MyRepos\LowPay\VS\Services\RTS\RTS.Service.Common2\obj\Debug\netcoreapp2.0\RTS.Service.Common2.dll
-E:\Projects\MyRepos\LowPay\VS\Services\RTS\RTS.Service.Common2\obj\Debug\netcoreapp2.0\RTS.Service.Common2.pdb
