@@ -16,8 +16,12 @@ E:\Projects\MyRepos\LowPay\VS\Framework\Lowpay\Data\obj\Debug\Lowpay.Framework.D
 E:\Projects\MyRepos\LowPay\VS\Framework\Lowpay\Data\obj\Debug\Lowpay.Framework.Data.pdb
 E:\Projects\MyRepos\LowPay\VS\Frameworks\Lowpay\Data\bin\Debug\Lowpay.Framework.Data.dll
 E:\Projects\MyRepos\LowPay\VS\Frameworks\Lowpay\Data\bin\Debug\Lowpay.Framework.Data.pdb
+E:\Projects\MyRepos\LowPay\VS\Frameworks\Lowpay\Data\bin\Debug\App.Framework.Data.dll
 E:\Projects\MyRepos\LowPay\VS\Frameworks\Lowpay\Data\bin\Debug\Lowpay.Framework.Common.dll
+E:\Projects\MyRepos\LowPay\VS\Frameworks\Lowpay\Data\bin\Debug\App.Framework.Business.dll
+E:\Projects\MyRepos\LowPay\VS\Frameworks\Lowpay\Data\bin\Debug\App.Framework.Data.pdb
 E:\Projects\MyRepos\LowPay\VS\Frameworks\Lowpay\Data\bin\Debug\Lowpay.Framework.Common.pdb
+E:\Projects\MyRepos\LowPay\VS\Frameworks\Lowpay\Data\bin\Debug\App.Framework.Business.pdb
 E:\Projects\MyRepos\LowPay\VS\Frameworks\Lowpay\Data\obj\Debug\Lowpay.Framework.Data.csprojResolveAssemblyReference.cache
 E:\Projects\MyRepos\LowPay\VS\Frameworks\Lowpay\Data\obj\Debug\Lowpay.Framework.Data.csproj.CoreCompileInputs.cache
 E:\Projects\MyRepos\LowPay\VS\Frameworks\Lowpay\Data\obj\Debug\Lowpay.Framework.Data.dll

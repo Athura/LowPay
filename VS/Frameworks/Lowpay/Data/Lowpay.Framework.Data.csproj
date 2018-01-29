@@ -40,10 +40,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="SecurityDataAdapter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\Application\Data\App.Framework.Data.csproj">
+      <Project>{9a577d18-8b98-48a0-878f-1033bdf69092}</Project>
+      <Name>App.Framework.Data</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Common\Lowpay.Framework.Common.csproj">
       <Project>{d21ce55b-0c08-45a0-a292-84ea8d2dba58}</Project>
       <Name>Lowpay.Framework.Common</Name>

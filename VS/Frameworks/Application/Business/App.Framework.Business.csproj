@@ -31,8 +31,11 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -41,13 +44,33 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AppExtensions.cs" />
+    <Compile Include="BusinessPrincipalController.cs" />
+    <Compile Include="CMSecurity.cs" />
+    <Compile Include="ConfigSettingsBase.cs" />
+    <Compile Include="ConnectionManagerBase.cs" />
+    <Compile Include="CRMExceptions.cs" />
+    <Compile Include="CRMExtensions.cs" />
+    <Compile Include="CRMUtility.cs" />
     <Compile Include="ErrorMessage.cs" />
     <Compile Include="ExecutionMessage.cs" />
     <Compile Include="ExecutionMessageCollection.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Security\ADSetting.cs" />
+    <Compile Include="Security\UserIdentity.cs" />
     <Compile Include="UserMessage.cs" />
     <Compile Include="WarningMessage.cs" />
     <Compile Include="WebMessage.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common\App.Framework.Common.csproj">
+      <Project>{491f8ce1-1d53-4403-91ee-73638460c15f}</Project>
+      <Name>App.Framework.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Data\App.Framework.Data.csproj">
+      <Project>{9a577d18-8b98-48a0-878f-1033bdf69092}</Project>
+      <Name>App.Framework.Data</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

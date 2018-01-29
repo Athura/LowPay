@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using Lowpay.Framework.Business;
 using RTS.Service.Business;
 using RTS.Service.Common;
 

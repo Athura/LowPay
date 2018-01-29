@@ -5,7 +5,11 @@ E:\Projects\MyRepos\LowPay\VS\Framework\Application\Business\obj\Debug\App.Frame
 E:\Projects\MyRepos\LowPay\VS\Framework\Application\Business\obj\Debug\App.Framework.Business.pdb
 E:\Projects\MyRepos\LowPay\VS\Frameworks\Application\Business\bin\Debug\App.Framework.Business.dll
 E:\Projects\MyRepos\LowPay\VS\Frameworks\Application\Business\bin\Debug\App.Framework.Business.pdb
+E:\Projects\MyRepos\LowPay\VS\Frameworks\Application\Business\bin\Debug\App.Framework.Common.dll
+E:\Projects\MyRepos\LowPay\VS\Frameworks\Application\Business\bin\Debug\App.Framework.Data.dll
+E:\Projects\MyRepos\LowPay\VS\Frameworks\Application\Business\bin\Debug\App.Framework.Common.pdb
+E:\Projects\MyRepos\LowPay\VS\Frameworks\Application\Business\bin\Debug\App.Framework.Data.pdb
+E:\Projects\MyRepos\LowPay\VS\Frameworks\Application\Business\obj\Debug\App.Framework.Business.csprojResolveAssemblyReference.cache
 E:\Projects\MyRepos\LowPay\VS\Frameworks\Application\Business\obj\Debug\App.Framework.Business.csproj.CoreCompileInputs.cache
 E:\Projects\MyRepos\LowPay\VS\Frameworks\Application\Business\obj\Debug\App.Framework.Business.dll
 E:\Projects\MyRepos\LowPay\VS\Frameworks\Application\Business\obj\Debug\App.Framework.Business.pdb
-E:\Projects\MyRepos\LowPay\VS\Frameworks\Application\Business\obj\Debug\App.Framework.Business.csprojResolveAssemblyReference.cache

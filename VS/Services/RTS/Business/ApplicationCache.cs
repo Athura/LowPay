@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.Caching;
 
-namespace EXSLead.PlatformServices2.Business
+namespace RTS.Service.Business
 {
 	public static class ApplicationCache
 	{

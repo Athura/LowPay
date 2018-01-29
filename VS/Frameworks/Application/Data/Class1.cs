@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace App.Framework.Common
+namespace App.Framework.Data
 {
     public class Class1
     {

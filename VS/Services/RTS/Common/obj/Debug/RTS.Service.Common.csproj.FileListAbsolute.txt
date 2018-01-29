@@ -1,7 +1,7 @@
 E:\Projects\MyRepos\LowPay\VS\Services\RTS\Common\bin\Debug\RTS.Service.Common.dll
 E:\Projects\MyRepos\LowPay\VS\Services\RTS\Common\bin\Debug\RTS.Service.Common.pdb
 E:\Projects\MyRepos\LowPay\VS\Services\RTS\Common\bin\Debug\App.Framework.Business.dll
-E:\Projects\MyRepos\LowPay\VS\Services\RTS\Common\bin\Debug\Ionic.Zip.dll
+E:\Projects\MyRepos\LowPay\VS\Services\RTS\Common\bin\Debug\Ionic.Zlib.dll
 E:\Projects\MyRepos\LowPay\VS\Services\RTS\Common\bin\Debug\Lowpay.Framework.Common.dll
 E:\Projects\MyRepos\LowPay\VS\Services\RTS\Common\bin\Debug\App.Framework.Business.pdb
 E:\Projects\MyRepos\LowPay\VS\Services\RTS\Common\bin\Debug\Lowpay.Framework.Common.pdb

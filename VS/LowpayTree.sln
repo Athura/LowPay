@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RTS.Service.Business", "Ser
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RTS.Service.Common", "Services\RTS\Common\RTS.Service.Common.csproj", "{F0D107A3-AF69-44C2-BA4D-1D70919E46C0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.Framework.Data", "Frameworks\Application\Data\App.Framework.Data.csproj", "{9A577D18-8B98-48A0-878F-1033BDF69092}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{F0D107A3-AF69-44C2-BA4D-1D70919E46C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F0D107A3-AF69-44C2-BA4D-1D70919E46C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F0D107A3-AF69-44C2-BA4D-1D70919E46C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A577D18-8B98-48A0-878F-1033BDF69092}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A577D18-8B98-48A0-878F-1033BDF69092}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A577D18-8B98-48A0-878F-1033BDF69092}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A577D18-8B98-48A0-878F-1033BDF69092}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

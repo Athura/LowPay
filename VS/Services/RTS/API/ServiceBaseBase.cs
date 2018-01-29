@@ -48,7 +48,6 @@ namespace RTS.Service.API
 				}
 				catch ( Exception ex )
 				{
-					ex.Log();
 					Msgs.Add(new ExecMsg(ExecMsgSeverity.Error, SysMsgCode.InternalError, ex.Message));
 					Exception e = ex.InnerException;
 					while ( e != null )

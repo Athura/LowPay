@@ -1,0 +1,6 @@
+E:\Projects\MyRepos\LowPay\VS\Frameworks\Application\Data\bin\Debug\App.Framework.Data.dll
+E:\Projects\MyRepos\LowPay\VS\Frameworks\Application\Data\bin\Debug\App.Framework.Data.pdb
+E:\Projects\MyRepos\LowPay\VS\Frameworks\Application\Data\obj\Debug\App.Framework.Data.csprojResolveAssemblyReference.cache
+E:\Projects\MyRepos\LowPay\VS\Frameworks\Application\Data\obj\Debug\App.Framework.Data.csproj.CoreCompileInputs.cache
+E:\Projects\MyRepos\LowPay\VS\Frameworks\Application\Data\obj\Debug\App.Framework.Data.dll
+E:\Projects\MyRepos\LowPay\VS\Frameworks\Application\Data\obj\Debug\App.Framework.Data.pdb

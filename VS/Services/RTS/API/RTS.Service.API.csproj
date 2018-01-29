@@ -93,6 +93,10 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\..\Frameworks\Lowpay\Business\Lowpay.Framework.Business.csproj">
+      <Project>{91831e93-1bd8-43f2-8d2b-cec4176e2a2e}</Project>
+      <Name>Lowpay.Framework.Business</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Business\RTS.Service.Business.csproj">
       <Project>{20fa6ee0-e110-49a2-8c73-38a05735c794}</Project>
       <Name>RTS.Service.Business</Name>

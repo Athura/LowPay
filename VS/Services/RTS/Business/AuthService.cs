@@ -1,9 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Configuration;
+using System.Data;
+using System.DirectoryServices.AccountManagement;
 using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
+using App.Framework.Business;
+using App.Framework.Business.Security;
 using Lowpay.Framework.Business;
 using Lowpay.Framework.Common;
 using RTS.Service.Common;
@@ -12,8 +16,6 @@ namespace RTS.Service.Business
 {
 	public class AuthService
 	{
-		private const string L2_USERNAME = "Lead2";
-
 		#region Password Encryption
 
 		#region CreateCipher
@@ -56,38 +58,8 @@ namespace RTS.Service.Business
 
 			if ( !string.IsNullOrWhiteSpace(userName) && !string.IsNullOrWhiteSpace(password) )
 			{
-				// Special case for the LEAD2 program.
-				if ( userName.Equals(L2_USERNAME, StringComparison.CurrentCultureIgnoreCase) )
-				{
-					var AI = EXSLogger.CreateAdditionalItemList("UserName", userName);
-					//AI["UserName"] = userName;
-					AI["Password"] = string.IsNullOrEmpty(password) ? "" :
-										password.Length < 2 ? "*" :
-										password.Substring(0, 1) + "**********" + password.Substring(password.Length - 1, 1);
-					AI["TimeToLive"] = ttl;
-
-					if ( ValidLead2TokenKeys.Contains(EncryptPassword(password)) )
-					{
-						var Token = new UserAuthToken()
-						{
-							UserName = L2_USERNAME,
-							Password = password,
-							ExpiresUTC = (ttl == TimeSpan.Zero) ? DateTime.MaxValue : DateTime.UtcNow.Add(ttl)
-						};
-						Token.GenerateAuthTokenKey();
-
-						AI["TokenExpDateUTC"] = Token.ExpiresUTC.ToString();
-						EXSLogger.Log("Password is valid", LOG_TITLE, LogSeverity.Information, AI);
-
-						return Token;
-					}
-					EXSLogger.Log("Password is NOT valid", LOG_TITLE, LogSeverity.Information, AI);
-				}
-				else
-				{
-					// Else we're going to use Windows Domain Auth.
-					return LoginUsingAD(userName, password, ttl);
-				}
+				// Else we're going to use Windows Domain Auth.
+				return LoginUsingAD(userName, password, ttl);
 			}
 			else
 				EXSLogger.Log("User Name and/or Password is Blank", LOG_TITLE, LogSeverity.Warning);
@@ -104,25 +76,7 @@ namespace RTS.Service.Business
 			catch ( Exception ex ) { ex.Log(); }
 			if ( CurrentToken != null )
 			{
-				// Special case for the LEAD2 program.
-				if ( CurrentToken.UserName.Equals(L2_USERNAME, StringComparison.CurrentCultureIgnoreCase) )
-				{
-					if ( ValidLead2TokenKeys.Contains(EncryptPassword(CurrentToken.Password)) )
-					{
-						var Token = new UserAuthToken()
-						{
-							UserName = CurrentToken.UserName,
-							Password = CurrentToken.Password,
-							ExpiresUTC = (ttl == TimeSpan.Zero) ? DateTime.MaxValue : DateTime.UtcNow.Add(ttl)
-						};
-						Token.GenerateAuthTokenKey();
-						return Token;
-					}
-				}
-				else
-				{
-					return LoginUsingAD(CurrentToken.UserName, CurrentToken.Password, ttl);
-				}
+				return LoginUsingAD(CurrentToken.UserName, CurrentToken.Password, ttl);
 			}
 			return null;
 		}
@@ -157,60 +111,17 @@ namespace RTS.Service.Business
 			catch ( Exception ex ) { ex.Log(LogSeverity.Warning); }
 			if ( TR != null )
 			{
-				// Special case for the LEAD2 program.
-				if ( TR.UserName.Equals(L2_USERNAME, StringComparison.CurrentCultureIgnoreCase) )
+				// Else we're going to use Windows Domain Auth.
+				if ( LoginUsingAD(TR.UserName, TR.Password, TimeSpan.Zero) != null )
 				{
-					if ( ValidLead2TokenKeys.Contains(EncryptPassword(TR.Password)) )
-					{
-						var AI = EXSLogger.CreateAdditionalItemList("UserName", TR.UserName);
-						AI["ExpDateUTC"] = TR.ExpiresUTC.ToString();
-						EXSLogger.Log("Auth Token Valid", LOG_TITLE, LogSeverity.Verbose, AI);
-						return TR;
-					}
-				}
-				else
-				{
-					// Else we're going to use Windows Domain Auth.
-					if ( LoginUsingAD(TR.UserName, TR.Password, TimeSpan.Zero) != null )
-					{
-						var AI = EXSLogger.CreateAdditionalItemList("UserName", TR.UserName);
-						AI["ExpDateUTC"] = TR.ExpiresUTC.ToString();
-						EXSLogger.Log("Auth Token Valid", LOG_TITLE, LogSeverity.Verbose, AI);
-						return TR;
-					}
+					var AI = EXSLogger.CreateAdditionalItemList("UserName", TR.UserName);
+					AI["ExpDateUTC"] = TR.ExpiresUTC.ToString();
+					EXSLogger.Log("Auth Token Valid", LOG_TITLE, LogSeverity.Verbose, AI);
+					return TR;
 				}
 			}
 			EXSLogger.Log("Auth Token is invalid", LOG_TITLE, LogSeverity.Warning);
 			return null;
-		}
-		#endregion
-
-		#region ValidLead2TokenKeys
-		/// <summary>
-		/// Valid security keys from the web.config (or wherever the data store)
-		/// to be used for LEAD2 authentication.
-		/// </summary>
-		private static IEnumerable<string> ValidLead2TokenKeys
-		{
-			get
-			{
-				var TR = ApplicationCache.CacheManagerGet<SynchronizedCollection<string>>("_ConfigurationValidLead2TokenKeys_",
-							() => new SynchronizedCollection<string>(), TimeSpan.Zero);
-				if ( !TR.Any() )
-				{
-					// Pull from web.config.
-					string Keys = ConfigurationManager.AppSettings["ValidLead2UserTokenKeys"];
-					if ( !string.IsNullOrEmpty(Keys) )
-					{
-						lock ( TR.SyncRoot )
-						{
-							foreach ( string ThisKey in Keys.Split(new char[] { '|' }, StringSplitOptions.RemoveEmptyEntries) )
-								TR.Add(ThisKey);
-						}
-					}
-				}
-				return TR;
-			}
 		}
 		#endregion
 
@@ -224,8 +135,8 @@ namespace RTS.Service.Business
 			var AI = EXSLogger.CreateAdditionalItemList("UserName", userName);
 			//AI["UserName"] = userName;
 			AI["Password"] = string.IsNullOrEmpty(password) ? "" :
-								password.Length < 2 ? "*" :
-								password.Substring(0, 1) + "**********" + password.Substring(password.Length - 1, 1);
+				password.Length < 2 ? "*" :
+				password.Substring(0, 1) + "**********" + password.Substring(password.Length - 1, 1);
 			AI["TimeToLive"] = ttl;
 
 			// Look in the cache first.  The process of going into AD takes forever (sometimes)!
@@ -334,7 +245,7 @@ namespace RTS.Service.Business
 				// AD authentication works.  Now let's check to make sure this user has EXS_CRM
 				// application rights according to the EXS Framework/system.
 				DataTable ToFill = null;
-				new SecurityController().LoadApplicationUsers(out ToFill, CRMConfig.ExternalApplicationCode);
+				new SecurityController().LoadApplicationUsers(out ToFill, CRMConfig.ApplicationCode);
 				if ( ToFill.AsEnumerable().OfType<DataRow>().Any(R => R["UserID"] != DBNull.Value && Convert.ToInt32(R["UserID"]) == UI.UserID) )
 				{
 					var TR = new UserAuthToken()
@@ -369,19 +280,8 @@ namespace RTS.Service.Business
 			catch ( Exception ex ) { ex.Log(); }
 			if ( CurrentToken != null )
 			{
-				// Special case for the LEAD2 program.
-				if ( CurrentToken.UserName.Equals(L2_USERNAME, StringComparison.CurrentCultureIgnoreCase) )
-				{
-					if ( ValidLead2TokenKeys.Contains(EncryptPassword(CurrentToken.Password)) )
-					{
-						return CurrentToken.UserName;
-					}
-				}
-				else
-				{
-					// Else we're going to use Windows Domain Auth.
-					return CurrentToken.UserName;
-				}
+				// Else we're going to use Windows Domain Auth.
+				return CurrentToken.UserName;
 			}
 			return "";
 		}

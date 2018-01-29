@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using App.Framework.Business;
+using Lowpay.Framework.Business;
 using RTS.Service.Common;
 
 namespace RTS.Service.Business
