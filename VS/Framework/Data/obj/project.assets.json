@@ -196,6 +196,16 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "Lowpay.Framework.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Lowpay.Framework.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Lowpay.Framework.Common.dll": {}
+        }
       }
     }
   },
@@ -656,10 +666,16 @@
         "netstandard.library.2.0.0.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "Lowpay.Framework.Common/1.0.0": {
+      "type": "project",
+      "path": "../Common/Lowpay.Framework.Common.csproj",
+      "msbuildProject": "../Common/Lowpay.Framework.Common.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
+      "Lowpay.Framework.Common >= 1.0.0",
       "Microsoft.NETCore.App >= 2.0.0"
     ]
   },
@@ -698,7 +714,11 @@
       },
       "frameworks": {
         "netcoreapp2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Projects\\Athura\\LowPayGit\\VS\\Framework\\Common\\Lowpay.Framework.Common.csproj": {
+              "projectPath": "D:\\Projects\\Athura\\LowPayGit\\VS\\Framework\\Common\\Lowpay.Framework.Common.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

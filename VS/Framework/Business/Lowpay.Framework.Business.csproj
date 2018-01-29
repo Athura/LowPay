@@ -4,4 +4,9 @@
     <TargetFramework>netcoreapp2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Lowpay.Framework.Common.csproj" />
+    <ProjectReference Include="..\Data\Lowpay.Framework.Data.csproj" />
+  </ItemGroup>
+
 </Project>

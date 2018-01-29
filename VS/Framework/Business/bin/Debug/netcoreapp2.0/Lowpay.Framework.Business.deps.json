@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.0",
+    "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.0": {
+      "Lowpay.Framework.Business/1.0.0": {
+        "dependencies": {
+          "Lowpay.Framework.Common": "1.0.0",
+          "Lowpay.Framework.Data": "1.0.0"
+        },
+        "runtime": {
+          "Lowpay.Framework.Business.dll": {}
+        }
+      },
+      "Lowpay.Framework.Common/1.0.0": {
+        "runtime": {
+          "Lowpay.Framework.Common.dll": {}
+        }
+      },
+      "Lowpay.Framework.Data/1.0.0": {
+        "dependencies": {
+          "Lowpay.Framework.Common": "1.0.0"
+        },
+        "runtime": {
+          "Lowpay.Framework.Data.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Lowpay.Framework.Business/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Lowpay.Framework.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Lowpay.Framework.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

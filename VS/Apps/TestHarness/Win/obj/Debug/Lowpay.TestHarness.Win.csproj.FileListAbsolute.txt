@@ -1,0 +1,9 @@
+D:\Projects\Athura\LowPayGit\VS\Apps\TestHarness\Win\obj\Debug\Lowpay.TestHarness.Win.csproj.CoreCompileInputs.cache
+D:\Projects\Athura\LowPayGit\VS\Apps\TestHarness\Win\bin\Debug\TestHarness.Win.exe.config
+D:\Projects\Athura\LowPayGit\VS\Apps\TestHarness\Win\bin\Debug\TestHarness.Win.exe
+D:\Projects\Athura\LowPayGit\VS\Apps\TestHarness\Win\bin\Debug\TestHarness.Win.pdb
+D:\Projects\Athura\LowPayGit\VS\Apps\TestHarness\Win\obj\Debug\Lowpay.TestHarness.Win.csprojResolveAssemblyReference.cache
+D:\Projects\Athura\LowPayGit\VS\Apps\TestHarness\Win\obj\Debug\TestHarness.Win.Properties.Resources.resources
+D:\Projects\Athura\LowPayGit\VS\Apps\TestHarness\Win\obj\Debug\Lowpay.TestHarness.Win.csproj.GenerateResource.Cache
+D:\Projects\Athura\LowPayGit\VS\Apps\TestHarness\Win\obj\Debug\TestHarness.Win.exe
+D:\Projects\Athura\LowPayGit\VS\Apps\TestHarness\Win\obj\Debug\TestHarness.Win.pdb

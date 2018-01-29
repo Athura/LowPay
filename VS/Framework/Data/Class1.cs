@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace IRL.Lowpay.Framework.Data
+namespace Lowpay.Framework.Data
 {
     public class Class1
     {
