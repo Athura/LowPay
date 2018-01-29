@@ -20,8 +20,6 @@ E:\Projects\MyRepos\LowPay\VS\Framework\Lowpay\Business\obj\Debug\Lowpay.Framewo
 E:\Projects\MyRepos\LowPay\VS\Framework\Lowpay\Business\obj\Debug\Lowpay.Framework.Business.csproj.CoreCompileInputs.cache
 E:\Projects\MyRepos\LowPay\VS\Framework\Lowpay\Business\obj\Debug\Lowpay.Framework.Business.dll
 E:\Projects\MyRepos\LowPay\VS\Framework\Lowpay\Business\obj\Debug\Lowpay.Framework.Business.pdb
-E:\Projects\MyRepos\LowPay\VS\Frameworks\Lowpay\Business\obj\Debug\Lowpay.Framework.Business.csprojResolveAssemblyReference.cache
-E:\Projects\MyRepos\LowPay\VS\Frameworks\Lowpay\Business\obj\Debug\Lowpay.Framework.Business.csproj.CoreCompileInputs.cache
 E:\Projects\MyRepos\LowPay\VS\Frameworks\Lowpay\Business\bin\Debug\Lowpay.Framework.Business.dll
 E:\Projects\MyRepos\LowPay\VS\Frameworks\Lowpay\Business\bin\Debug\Lowpay.Framework.Business.pdb
 E:\Projects\MyRepos\LowPay\VS\Frameworks\Lowpay\Business\bin\Debug\App.Framework.Business.dll
@@ -34,5 +32,7 @@ E:\Projects\MyRepos\LowPay\VS\Frameworks\Lowpay\Business\bin\Debug\App.Framework
 E:\Projects\MyRepos\LowPay\VS\Frameworks\Lowpay\Business\bin\Debug\App.Framework.Data.pdb
 E:\Projects\MyRepos\LowPay\VS\Frameworks\Lowpay\Business\bin\Debug\Lowpay.Framework.Common.pdb
 E:\Projects\MyRepos\LowPay\VS\Frameworks\Lowpay\Business\bin\Debug\Lowpay.Framework.Data.pdb
+E:\Projects\MyRepos\LowPay\VS\Frameworks\Lowpay\Business\obj\Debug\Lowpay.Framework.Business.csprojResolveAssemblyReference.cache
+E:\Projects\MyRepos\LowPay\VS\Frameworks\Lowpay\Business\obj\Debug\Lowpay.Framework.Business.csproj.CoreCompileInputs.cache
 E:\Projects\MyRepos\LowPay\VS\Frameworks\Lowpay\Business\obj\Debug\Lowpay.Framework.Business.dll
 E:\Projects\MyRepos\LowPay\VS\Frameworks\Lowpay\Business\obj\Debug\Lowpay.Framework.Business.pdb

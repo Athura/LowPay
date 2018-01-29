@@ -26,7 +26,7 @@ namespace RTS.Service.API
 		#region AuthWrapper
 		public static void AuthWrapper(string auth, Action toExecute)
 		{
-			var Token = AuthService.CheckAuthToken(auth);
+			var Token = SecurityService.CheckAuthToken(auth);
 			if ( Token == null )
 				ExecMsgScope.RaiseMsg(ExecMsgSeverity.Error, SysMsgCode.AuthTokenNotValid);
 			// Throw this token info into the context so logging can include it if needed.

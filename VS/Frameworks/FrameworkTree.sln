@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lowpay.Framework.Common", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lowpay.Framework.Data", "Lowpay\Data\Lowpay.Framework.Data.csproj", "{1376D543-083A-429C-9F99-AD89E50DFD2C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.Framework.Data", "Application\Data\App.Framework.Data.csproj", "{9A577D18-8B98-48A0-878F-1033BDF69092}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{1376D543-083A-429C-9F99-AD89E50DFD2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1376D543-083A-429C-9F99-AD89E50DFD2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1376D543-083A-429C-9F99-AD89E50DFD2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A577D18-8B98-48A0-878F-1033BDF69092}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A577D18-8B98-48A0-878F-1033BDF69092}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A577D18-8B98-48A0-878F-1033BDF69092}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A577D18-8B98-48A0-878F-1033BDF69092}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

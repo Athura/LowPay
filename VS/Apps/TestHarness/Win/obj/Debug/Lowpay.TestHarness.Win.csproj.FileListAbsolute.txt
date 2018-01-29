@@ -7,9 +7,6 @@ D:\Projects\Athura\LowPayGit\VS\Apps\TestHarness\Win\obj\Debug\TestHarness.Win.P
 D:\Projects\Athura\LowPayGit\VS\Apps\TestHarness\Win\obj\Debug\Lowpay.TestHarness.Win.csproj.GenerateResource.Cache
 D:\Projects\Athura\LowPayGit\VS\Apps\TestHarness\Win\obj\Debug\TestHarness.Win.exe
 D:\Projects\Athura\LowPayGit\VS\Apps\TestHarness\Win\obj\Debug\TestHarness.Win.pdb
-E:\Projects\MyRepos\LowPay\VS\Apps\TestHarness\Win\obj\Debug\TestHarness.Win.Properties.Resources.resources
-E:\Projects\MyRepos\LowPay\VS\Apps\TestHarness\Win\obj\Debug\Lowpay.TestHarness.Win.csproj.GenerateResource.Cache
-E:\Projects\MyRepos\LowPay\VS\Apps\TestHarness\Win\obj\Debug\Lowpay.TestHarness.Win.csproj.CoreCompileInputs.cache
 E:\Projects\MyRepos\LowPay\VS\Apps\TestHarness\Win\bin\Debug\TestHarness.Win.exe.config
 E:\Projects\MyRepos\LowPay\VS\Apps\TestHarness\Win\bin\Debug\TestHarness.Win.exe
 E:\Projects\MyRepos\LowPay\VS\Apps\TestHarness\Win\bin\Debug\TestHarness.Win.pdb
@@ -24,5 +21,8 @@ E:\Projects\MyRepos\LowPay\VS\Apps\TestHarness\Win\bin\Debug\App.Framework.Busin
 E:\Projects\MyRepos\LowPay\VS\Apps\TestHarness\Win\bin\Debug\Lowpay.Framework.Data.pdb
 E:\Projects\MyRepos\LowPay\VS\Apps\TestHarness\Win\bin\Debug\App.Framework.Data.pdb
 E:\Projects\MyRepos\LowPay\VS\Apps\TestHarness\Win\obj\Debug\Lowpay.TestHarness.Win.csprojResolveAssemblyReference.cache
+E:\Projects\MyRepos\LowPay\VS\Apps\TestHarness\Win\obj\Debug\TestHarness.Win.Properties.Resources.resources
+E:\Projects\MyRepos\LowPay\VS\Apps\TestHarness\Win\obj\Debug\Lowpay.TestHarness.Win.csproj.GenerateResource.Cache
+E:\Projects\MyRepos\LowPay\VS\Apps\TestHarness\Win\obj\Debug\Lowpay.TestHarness.Win.csproj.CoreCompileInputs.cache
 E:\Projects\MyRepos\LowPay\VS\Apps\TestHarness\Win\obj\Debug\TestHarness.Win.exe
 E:\Projects\MyRepos\LowPay\VS\Apps\TestHarness\Win\obj\Debug\TestHarness.Win.pdb

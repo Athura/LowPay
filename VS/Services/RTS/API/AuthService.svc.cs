@@ -33,7 +33,7 @@ namespace RTS.Service.API
 				//UserBase UB = new UserBaseService().LoginByUserNamePassword(username, password);
 				//if ( UB == null )
 				//    ExecMsgScope.RaiseMsg(ExecMsgSeverity.Error, SysMsgCode.InvalidLogin);
-				var TR = AuthService.LoginByUserNamePassword(username, password, (ttlSeconds <= 0) ? TimeSpan.Zero : TimeSpan.FromSeconds(ttlSeconds));
+				var TR = SecurityService.LoginByUserNamePassword(username, password, (ttlSeconds <= 0) ? TimeSpan.Zero : TimeSpan.FromSeconds(ttlSeconds));
 				if ( TR == null )
 					ExecMsgScope.RaiseMsg(ExecMsgSeverity.Error, SysMsgCode.InvalidLogin);
 				return TR.ToString();
@@ -56,7 +56,7 @@ namespace RTS.Service.API
 		{
 			return AuthResultWrapper(auth, () =>
 			{
-				var TR = AuthService.LoginByAuthToken(auth, (ttlSeconds <= 0) ? TimeSpan.Zero : TimeSpan.FromSeconds(ttlSeconds));
+				var TR = SecurityService.LoginByAuthToken(auth, (ttlSeconds <= 0) ? TimeSpan.Zero : TimeSpan.FromSeconds(ttlSeconds));
 				if ( TR == null )
 					ExecMsgScope.RaiseMsg(ExecMsgSeverity.Error, SysMsgCode.InvalidLogin);
 				return TR.ToString();
@@ -80,13 +80,12 @@ namespace RTS.Service.API
 		{
 			return AuthResultWrapper(auth, () =>
 			{
-				var TR = AuthService.GetUserNameFromAuthToken(auth);
+				var TR = SecurityService.GetUserNameFromAuthToken(auth);
 				if ( TR == null )
 					ExecMsgScope.RaiseMsg(ExecMsgSeverity.Error, SysMsgCode.AuthTokenNotValid);
 				return TR;
 			});
 		}
 		#endregion
-
 	}
 }

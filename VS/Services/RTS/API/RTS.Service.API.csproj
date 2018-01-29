@@ -93,6 +93,10 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\..\Frameworks\Application\Business\App.Framework.Business.csproj">
+      <Project>{b023c90e-e652-489c-ba0f-a26749c70e9f}</Project>
+      <Name>App.Framework.Business</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\..\Frameworks\Lowpay\Business\Lowpay.Framework.Business.csproj">
       <Project>{91831e93-1bd8-43f2-8d2b-cec4176e2a2e}</Project>
       <Name>Lowpay.Framework.Business</Name>

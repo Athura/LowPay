@@ -46,7 +46,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ApplicationCache.cs" />
-    <Compile Include="AuthService.cs" />
+    <Compile Include="SecurityService.cs" />
     <Compile Include="ServiceBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ServiceBaseBase.cs" />

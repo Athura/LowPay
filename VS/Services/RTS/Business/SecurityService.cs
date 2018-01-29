@@ -14,7 +14,7 @@ using RTS.Service.Common;
 
 namespace RTS.Service.Business
 {
-	public class AuthService
+	public class SecurityService
 	{
 		#region Password Encryption
 
